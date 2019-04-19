@@ -9,36 +9,35 @@
 
 
 		.trans {
-  	background-color: black;
-  	height:200px;
-  	width:1420px;
-  	margin-top: 1px;
-  	transition:2s; 
-  	color: white;
-	text-align: center;
-	font-size: 40px;
-	font-family: impact;
-
+  			background-color: black;
+  			margin-top: 1px;
+  			margin-bottom: 10px; 
+  			color: white;
+			text-align: center;
+			font-size: 40px;
+			font-family: impact;
+			animation: mymove 3s infinite;
 		}
 
-
-/*   add your starting state and your end state  */
-
-
-		.trans:hover {
-  background-color: #F6EB0F;
-  height:750px;
-  transition:2s;
+		@keyframes mymove {
+  			from {color: white;}
+  			to {color: #F7B7F9;}
 		}
 
 		.text{
-	position: absolute;
-	top:200px;
-	color: black;
-	font-size: 150px;
-	text-align:center;
-	font-family: impact;
+			top:90px;
+			font-size: 180px;
+			text-align:center;
+			font-family: impact;
+		}
 
+		.yellow{
+			color: black;
+		}
+
+
+		.yellow:hover{
+			color: #F6EB0F;
 		}
 
 	</style>
@@ -53,8 +52,7 @@
 </div>
 
 <div class="text">
-	You are desperate in deep space. <br>
-25/4/19 5.14am
+	<span class="yellow">You </span><span class="yellow">are </span><span class="yellow">desperate </span><span class="yellow">in </span><span class="yellow">deep </span><span class="yellow">space. </span><span class="yellow"> 25/3/19</span><span class="yellow"> 5.14am</span>
 </div>
 
 

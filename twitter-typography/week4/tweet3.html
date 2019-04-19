@@ -3,11 +3,101 @@
 <head>
 	<title>Tweet 3</title>
 	<style type="text/css">
-   
+	body{
+		background-color: black
+	}
+
+   .space{
+		background:url(images/rocket.png) no-repeat center 300px, url(images/background.png) no-repeat bottom center;
+		width:800px;
+		height:800px;
+		margin: 0 auto;
+		transition:background-position 2s;
+	}
+
+	.space:hover{
+		background-position:50% 20px, top ;
+	}
+
+	.text{
+		font-size: 60px;
+		font-family: courier;
+		top:25px;
+		animation: mymove 0.5s infinite;
+	}
+
+
+		@keyframes mymove {
+  			from {color: black;}
+  			to {color: #F6EB0F;}
+		}
+
+	.one{
+		text-align: left;
+		position: absolute;
+	}
+
+	.two{
+		text-align: right;
+		position: absolute;
+		right: 0px;
+	}
+
 
 	</style>
 </head>
 <body>
+
+<div class="space"></div>
+
+<div class="text one">
+	With 
+	<br>
+	a surge
+	<br>
+	of power, 
+	<br>
+	you 
+	<br>
+	break 
+	<br>
+	orbit 
+	<br>
+	and 
+	<br>
+	escape 
+	<br>
+	the 
+	<br>
+	solar
+	<br>
+	system,
+</div>
+
+<div class="text two">
+	leaving
+	<br>
+	the 
+	<br>
+	white 
+	<br>
+	dwarf 
+	<br>
+	far 
+	<br>
+	behind 
+	<br>
+	you.
+	<br>
+	4th 
+	<br>
+	May
+	<br>
+	2019 
+	<br>
+	10.14pm
+	<br>
+</div>
 
 
 </body>

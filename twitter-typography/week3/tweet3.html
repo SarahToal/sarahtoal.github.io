@@ -6,21 +6,93 @@
 		body{
 			background-color: black;
 		}
+
+		.text1{
+			font-size: 20pt;
+			font-family: impact;
+			margin-top: 10px;
+			color: black;
+			text-align: center;
+		}
+
+		.text2{
+			font-size: 20pt;
+			text-align: center;
+			font-family: impact;
+			color: black;
+		}
+
+		.text3{
+			font-size: 90px;
+			font-family: impact;
+			color: black;
+			text-align: right;
+		}
+
+		.text4{
+			font-size: 90px;
+			font-family: impact;
+			color: black;
+			text-align: left;
+		}
+
+      	.box {
+  			background-color: black;
+  			height:130px;
+  			width:800px;
+  			transition:1s;  
+  			display: block;
+  			left:0px;
+  			padding-right: 40px;
+  			position: relative;
+  			margin-top: 130px;
+  			top:-130px;
+		}
+
+		.box:hover {
+  			background-color: #FF1493;
+  			width:1380px;
+  			transition:0.5s;
+		}
+
+		.box2 {
+  			background-color: black;
+  			height:130px;
+  			width:800px;
+  			transition:1s;  
+  			display: block;
+  			right: 0px;
+  			padding-left: 40px;
+  			position: absolute;
+  			margin-top: -130px;
+		}
+
+		.box2:hover {
+  			background-color: #00FFFF;
+  			width:1380px;
+  			transition:0.5s;
+		}
+		
+
+
 		.planet1 {
-  			width: 250px;
-  			height:250px;
+  			width: 200px;
+  			height:100px;
+  			padding-bottom: 80px;
+  			padding-top: 40px;
   			box-shadow:0px 0px 60px 80px #F6EB0F;
-  			margin-top: 240px;
-  			margin-left: 580px;   
+  			left: 300px;
+  			top: 350px;    
   			background-color:  #F6EB0F;
-  			font-size: 30pt;
 
   			/*   add your animation name and settings here */
   			animation-name:spinUG;
-  			animation-duration:8000ms;
+  			animation-duration:2000ms;
   			animation-iteration-count: infinite;
   			animation-timing-function: linear;
-  			animation-direction: normal;  
+  			animation-direction: normal; 
+  			top: 230px; 
+  			position: fixed;
 		}
 
 			/*   add your starting state and your end state  */
@@ -35,46 +107,28 @@
  		}
 	}
 
-		.text1{
-			font-size: 18pt;
-			font-family: courier;
-			margin-top: 80px;
-			color: black
-		}
-
-		.text2{
-			font-size: 18pt;
-			text-align: right;
-			font-family: courier;
-			margin-top: 20px;
-			color: black
-		}
-
 
 		.planet2 {
-			position: absolute;
-  			width: 50px;
-  			height:50px;
-  			box-shadow:0px 0px 30px 40px #00BFFF;
-  			top: 150px;
-  			left: 200px;   
-  			background-color:  #00BFFF;
-  			font-size: 8pt;
-			text-align: center;
-			font-family: courier;
-			margin-top: 1px;
-			color: black;
+  			width: 180px;
+  			height:100px;
+  			padding-bottom: 40px;
+  			padding-top: 40px;
+  			box-shadow:0px 0px 60px 80px #F6EB0F;
+  			right: 300px;
+  			top: 400px;    
+  			background-color:  #F6EB0F;
 
   			/*   add your animation name and settings here */
-  			animation-name:spinUGg;
-  			animation-duration:9000ms;
+  			animation-name:spinUG;
+  			animation-duration:2000ms;
   			animation-iteration-count: infinite;
   			animation-timing-function: linear;
-  			animation-direction: normal;  
+  			animation-direction: reverse; 
+  			position: fixed;
 		}
 
 			/*   add your starting state and your end state  */
-	@keyframes spinUGg {
+	@keyframes spinUG {
   
   		from {
     		transform:rotate(0deg);
@@ -83,53 +137,6 @@
   		to {
     		transform:rotate(360deg);
  		}
-	}
-
-
-	.planet3 {
-			position: absolute;
-  			width: 50px;
-  			height:40px;
-  			box-shadow:0px 0px 30px 40px #FF1493;
-  			bottom: 200px;
-  			right: 200px;   
-  			background-color:  #FF1493;
-  			font-size: 10pt;
-			text-align: center;
-			font-family: courier;
-			padding-top: 9px;
-			color: #000316;
-
-  			/*   add your animation name and settings here */
-  			animation-name:spinUGg;
-  			animation-duration:9000ms;
-  			animation-iteration-count: infinite;
-  			animation-timing-function: linear;
-  			animation-direction: normal;  
-		}
-
-			/*   add your starting state and your end state  */
-	@keyframes spinUGg {
-  
-  		from {
-    		transform:rotate(0deg);
-  		}
-  
-  		to {
-    		transform:rotate(360deg);
- 		}
-	}
-
-
-	.text3{
-		font-family: arial;
-		font-size: 30px;
-		color: white;
-		position: absolute;
-		text-align: right;
-		font-weight: bold;
-		right: 300px;
-		top: 100px;
 	}
 
 	</style>
@@ -137,28 +144,35 @@
 <body>
 
 
+
+
+<div class="box text3">two</div>
+<div class="box2 text4">moons</div>
+<div class="box text3">orbit</div>
+<div class="box2 text4">slowly</div>
+<div class="box text3">24/3/19</div>
+<div class="box2 text4">10.14pm</div>
+
+
 <div class="planet1">
-	<span class="text1"> 
+	<div class="text1"> 
 	You sit eagerly in the average planet's gravitational pull.
-	</span>
-	<br>
+	</div>
+</div>
+
+<div class="planet2">
 	<div class="text2"> 
 	 Its sulphurous surface is light yellow all over.
 	</div>
 </div>
 
-<div class="planet2">
-	Two moons orbit slowly
-</div>
 
+	
+	
+	
+	
+	
 
-<div class="planet3">
-	24/4/19 10.14pm
-</div>
-
-<div class="text3">
-	You
-</div>
 	
 
 </body>
