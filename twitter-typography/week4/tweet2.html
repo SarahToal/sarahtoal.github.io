@@ -7,54 +7,35 @@
 			background-color: black;
 		}
 		
-		.element {
-  			animation:nudge 5s linear infinite alternate;
-    		margin-top:-150px;
-    		left: -100px;
-		}
 
-		@keyframes nudge {
- 		0%, 100% {
-    		transform: translate(0, 0);
+		.box {
+  		width:90%;
+  /*   add your animation name and settings here */
+  		animation-name:spinUG;
+  		animation-duration:2000ms;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+  		animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+	@keyframes spinUG {
+  
+  		0%, 100% {
+    		transform: translate(-130px, 0);
   			}
   
   		50% {
-    		transform: translate(-50px, 0);
+    		transform: translate(-140px, 0);
   			}
   
   		80% {
-   			transform: translate(-100px, 0);
+   			transform: translate(-150px, 0);
   			}
 		}
 
 
-		.one{
-			 animation:nudgee 5s linear infinite alternate;
-			 right: -100px;
-			 align-items: right;
-			 display: inline-block;
-		}
 
-		@keyframes nudgee {
- 		0%, 100% {
-    		transform: translate(0, 0);
-  			}
-  
-  		50% {
-    		transform: translate(-50px, 0);
-  			}
-  
-  		80% {
-   			transform: translate(-100px, 0);
-  			}
-		}
-
-
-		body {
-  			display: flex;
-  			align-items: center;
-  			justify-content: center;
-		}
 
 		.text{
 			color: white;
@@ -62,8 +43,19 @@
 			position: absolute; 
 			font-size: 20px;
 			font-family: impact;
+			left: 200px;
+			top:60px;
 		}
 
+
+		.text2{
+			color: white;
+			position: absolute; 
+			font-size: 110px;
+			font-family: impact;
+			right: 200px;
+			top:400px;
+		}
 
 	</style>
 </head>
@@ -71,17 +63,19 @@
 
 
 
-<div class="element">
-	<img src="Images/mist.png">
-</div>
-<div class="element one">
-	<img src="Images/mist2.png">
+<div class="box">
+	<img src="Images/mist.png" 150%>
 </div>
 
 <br>
 
 <div class="text">
-	You land on the emerald surface. You realize the brisk air means you might die. You die. 3/4/2019 7.14pm
+	3/4/2019 7.14pm <br>
+	You land on the emerald surface. You realize the brisk air means you might die. 
+</div>
+
+<div class="text2">
+	You die. 
 </div>
 
 
