@@ -1,182 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<style type="text/css">
-		body{
-			background-color:black;
-		}
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  	<link rel="stylesheet" href="assets/css/grid.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+  	<script src="assets/js/jquery-3.4.1.min.js"></script>
+  	<script src="assets/js/main.js"></script>
+  </head>
+  <body class="bg-red">
+    <!-- start here -->
 
-		.image img{
-			width: 50%;
-			display: block;
-			margin: auto;
-			margin-top: 60px;
-			margin-bottom:150px;
-		}
+    <div class="keyboard">
+       <div class="button4 button">
+         <img class="b1" data-alt-src="assets/images/button-01-invert.png" src="assets/images/button-01.png">
+      </div>
+      <div class="button1 button">
+        <img class="b1" data-alt-src="assets/images/button-03-invert.png" src="assets/images/button-03.png">
+      </div>
 
-		.title1{
-			transform: rotate(90deg);
-  			color: #FF69B4;
-  			font-size: 250px;
-  			position:fixed;
-  			margin-top: 50px;
-  			transform-origin: 20% 50%;
-  			font-family: Palatino;
-  			left:0px;
-		}
+      <div class="button3 button">
+        <img class="b1" data-alt-src="assets/images/button-02-invert.png" src="assets/images/button-02.png">
+      </div>
 
-		.title2{
-			transform: rotate(270deg);
-			transform-origin: 100%;
-  			color: #FF69B4;
-  			font-size: 250px;
-  			position:fixed;
-  			margin-top: 10px;
-  			right: 0px;
-  			font-family: Palatino;
-  			margin-right: 125px;
+      <div class="button2 button">
+        <img class="b1" data-alt-src="assets/images/button-04-invert.png" src="assets/images/button-04.png">
+      </div>
 
-		}
+    </div>
 
-		.stick{
-			 position: sticky;
-		}
+    <div class="bgimg bg1">
+      <img src="assets/images/bg-1.jpg">
+    </div>
 
+    <div class="bgimg bg2">
+      <img src="assets/images/bg-2.jpg">
+    </div>
 
+    <div class="bgimg bg3">
+      <img src="assets/images/bg-3.jpg">
+    </div>    
 
-		.grid-container {
-  			display: grid;
-  			grid-template-columns: auto auto;
-  			padding-top: 10px;
-  			margin-left: 370px;
-  			margin-right: 300px;
-		}
+    <div class="bgimg bg4">
+      <img src="assets/images/bg-4.jpg">
+    </div>
 
-		.grid-item {
-  			font-size: 30px;
- 			text-align: center;
-		}
-
-
-
-		.titles{
-			color: #00FFFF;
-			font-family: Palatino;
-			font-size: 90px;
-			position:absolute;
-			animation: mymove 3s infinite;
-		}
-
-		@keyframes mymove {
-  			from {color: #00FFFF;}
-  			to {color: #F15FF9;}
-		}
-
-
-		.links{
-			color: #00FFFF;
-			font-family: Palatino;
-			font-size: 50px;
-			position:absolute;
-			text-align: center;
-			margin-top: 60px;
-			padding-left: 70px;
-		}
-
-
-		.links a:hover{
-			color:#FF1493;
-		}
-
-		.links a {
-			color: #F6EB0F;
-			text-decoration: none;
-		}
-
-		.bottom{
-			  padding-top: 400px;
-			  margin-bottom: 400px;
-		}
-
-	</style>
-</head>
-<body>
-
-<div class="stick">
-	<div class="title1">sarah</div>
-	<div class="title2">toal</div>
-</div>
-
-
-<div class="image">
-	<img src="Images/space2.png">
-</div>
-
-
-<div class="grid-container">
-<div class="grid-item">
-		<div class="titles">
-			week 1
-		</div>
-			<br>
-		<div class="links">
-			<a href="twitter-typography/week1/tweet1.html">one</a> <br>
-			<a href="twitter-typography/week1/tweet2.html">two</a> <br>
-			<a href="twitter-typography/week1/tweet3.html">three</a> <br>
-			<a href="twitter-typography/week1/tweet4.html">four</a> <br>
-			<a href="twitter-typography/week1/tweet5.html">five</a> <br>
-		</div>
-</div>
-
-
-<div class="grid-item">
-		<div class="titles">
-			week 2
-		</div>
-			<br>
-		<div class="links">
-			<a href="twitter-typography/week2/tweet1.html">one</a> <br>
-			<a href="twitter-typography/week2/tweet2.html">two</a> <br>
-			<a href="twitter-typography/week2/tweet3.html">three</a> <br>
-			<a href="twitter-typography/week2/tweet4.html">four</a> <br>
-			<a href="twitter-typography/week2/tweet5.html">five</a> <br>
-		</div>
-</div>
-
-<div class="grid-item bottom">
-		<div class="titles">
-			week 3
-		</div>
-			<br>
-		<div class="links">
-			<a href="twitter-typography/week3/tweet1.html">one</a> <br>
-			<a href="twitter-typography/week3/tweet2.html">two</a> <br>
-			<a href="twitter-typography/week3/tweet3.html">three</a> <br>
-			<a href="twitter-typography/week3/tweet4.html">four</a> <br>
-			<a href="twitter-typography/week3/tweet5.html">five</a> <br>
-		</div>
-
-</div>
-
-<div class="grid-item bottom">
-		<div class="titles">
-			week 4
-		</div>
-			<br>
-		<div class="links">
-			<a href="twitter-typography/week4/tweet1.html">one</a> <br>
-			<a href="twitter-typography/week4/tweet2.html">two</a> <br>
-			<a href="twitter-typography/week4/tweet3.html">three</a> <br>
-			<a href="twitter-typography/week4/tweet4.html">four</a> <br>
-			<a href="twitter-typography/week4/tweet5.html">five</a> <br>
-		</div>
-
-</div>
-
-
-
-</div>
-
-</body>
+    <!-- end here -->
+  </body>
 </html>
