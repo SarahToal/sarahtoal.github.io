@@ -58,7 +58,7 @@ img {
 	font-size: 1.7vw;
 	margin-bottom: 30px;
 	margin-top:10px;
-	line-height: 21px
+	line-height: 26px
 }
 
 .keypages{
@@ -145,14 +145,14 @@ img {
 }
 
 .image-1 {
-	left: 104px;
-	top:-600px;
-	width: 10%;
+	left: 180px;
+	top:-550px;
+	width: 5%;
 }
 
 .image-2 {
 	left: 214px;
-    top: -660px;
+    top: -580px;
 }
 
 .image-3 {
@@ -179,73 +179,79 @@ img {
 }
 
 .image-7 {
-	left: 14px;
+	left: -14px;
     top: -730px;
 }
 
 .image-8 {
+	width: 14%;
 	left: -114px;
     top: -550px;
 }
 
 .image-9 {
-	left: 614px;
-    top: -1000px;
+	left: 314px;
+    top: -500px;
 }
 
 .image-10 {
-	left: 114px;
-    top: -1000px;
+	left: 250px;
+    top: -700px;
 }
 
 .image-11 {
-	left: 114px;
-    top: -1000px;
+	width: 10%;
+	left: -150px;
+    top: -900px;
 }
 
 .image-12 {
-	left: 114px;
-    top: -1000px;
+	left: 300px;
+    top: -700px;
 }
 
 .image-13 {
-	left: 114px;
+	left: 214px;
     top: -1000px;
 }
 
 .image-14 {
-	left: 114px;
-    top: -1000px;
+	width: 10%;
+	left: -280px;
+    top: -900px;
 }
 
 .image-15 {
+	width: 10%;
 	left: 114px;
     top: -1000px;
 }
 
 .image-16 {
-	left: 114px;
-    top: -1000px;
+	width: 13%;
+	left: 250px;
+    top: -1120px;
 }
 
 .image-17 {
 	left: 114px;
-    top: -1000px;
+    top: -900px;
 }
 
 .image-18 {
-	left: 114px;
+	left: 0px;
     top: -1000px;
 }
 
 .image-19 {
-	left: 114px;
-    top: -1000px;
+	width: 14%;
+	left: 30px;
+    top: -1300px;
 }
 
 .image-20 {
-	left: 114px;
-    top: -1000px;
+	left: 650px;
+    top: -1480px;
 }
 
 .image-21 {
@@ -259,38 +265,44 @@ img {
 }
 
 .image-23 {
-	left: 114px;
-    top: -1000px;
+	width: 9%;
+	left: 600px;
+    top: -1200px;
 }
 
 .image-24 {
-	left: 114px;
-    top: -1000px;
+	left: 100px;
+    top: -1250px;
 }
 
 .image-25 {
-	left: 114px;
-    top: -1000px;
+	width: 10%;
+	left: -420px;
+    top: -1650px;
 }
 
 .image-26 {
-	left: 114px;
-    top: -1000px;
+	width: 8%;
+	left: 200px;
+    top: -1800px;
 }
 
 .image-27 {
-	left: 114px;
-    top: -1000px;
+	width: 13%;
+	left: 550px;
+    top: -1500px;
 }
 
 .image-28 {
-	left: 114px;
-    top: -1000px;
+	width: 18%;
+	left: -980px;
+    top: -1250px;
 }
 
 .image-29 {
-	left: 114px;
-	bottom: 300px;
+	width: 15%;
+	left: -300px;
+	top: -1400px;
 }
 /*imagepage end*/
 
