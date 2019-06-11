@@ -22,7 +22,6 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
 
 .right{
@@ -304,13 +303,124 @@ img {
 
 
 /*BuyPage Start*/
-.placebox2{
-	width: 100%;
-	height:500px;
-	background-color: black;
+.bookcover {
+	width: 27.5vw;
 }
 
-a {
-	color: black
+.text4{
+	margin-top:10px;
+	font-size: 2vw;
+	color: black;
 }
+
+.image-buy {
+	width: 16%;
+	left: 50px;
+	top: -500px;
+}
+
+.image-buy1 {
+	width: 16%;
+	left: 100px;
+	top: -300px;
+}
+
+.image-buy2 {
+	width: 16%;
+	left: -400px;
+	top: -200px;
+}
+
+.image-buy3 {
+	width: 16%;
+	left: -500px;
+	top: -100px;
+}
+
+.image-buy4 {
+	width: 16%;
+	left: -400px;
+	top: -550px;
+}
+
+.image-buy5 {
+	width: 16%;
+	left: -450px;
+	top: -650px;
+}
+
+.image-buy6 {
+	width: 16%;
+	left: 400px;
+	top: -570px;
+}
+
+.image-buy7 {
+	width: 16%;
+	left: 500px;
+	top: -550px;
+}
+
+.image-buy8 {
+	width: 16%;
+	left: 100px;
+	top: -200px;
+}
+
+.image-buy9 {
+	width: 16%;
+	left: -500px;
+	top: -380px;
+}
+
+.image-buy10 {
+	width: 16%;
+	left: -420px;
+	top: -230px;
+}
+
+.image-buy11 {
+	width: 16%;
+	left: 0px;
+	top: -260px;
+}
+
+.image-buy12 {
+	width: 16%;
+	left: 800px;
+	top: -850px;
+}
+
+.image-buy13 {
+	width: 16%;
+	left: 800px;
+	top: -740px;
+}
+
+.image-buy14 {
+	width: 16%;
+	left: 400px;
+	top: -500px;
+}
+
+.image-buy15 {
+	width: 16%;
+	left: 0px;
+	top: -400px;
+}
+
+.image-buy16 {
+	width: 16%;
+	left: 300px;
+	top: -700px;
+}
+
+.image-buy17 {
+	width: 16%;
+	left: 50px;
+	top: -480px;
+}
+/*a {
+	color: black;
+}*/
 /*BuyPage Ends*/
