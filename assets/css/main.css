@@ -297,8 +297,6 @@ img {
 	left: 0px;
     top: -1400px;
 }
-
-
 /*imagepage end*/
 
 
@@ -307,7 +305,7 @@ img {
 	width: 27.5vw;
 }
 
-.text4{
+.text5{
 	margin-top:10px;
 	font-size: 2vw;
 	color: black;
@@ -420,7 +418,16 @@ img {
 	left: 50px;
 	top: -480px;
 }
-/*a {
-	color: black;
-}*/
 /*BuyPage Ends*/
+
+/*Warning Starts*/
+.text4 {
+	font-size: 1.2vw;
+	margin-top:10px;
+}
+/*Warning Ends*/
+
+
+
+
+
